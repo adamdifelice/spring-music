@@ -9,8 +9,8 @@ buildscript {
         mavenCentral()
         maven { url "https://repo.spring.io/plugins-release" }
         maven {
-            url 'https://pkgs.dev.azure.com/adam0811/_packaging/adam0811/maven/v1'
-            name 'adam0811'
+            url 'https://pkgs.dev.azure.com/adam0811/DevDays2020/_packaging/DevDays2020/maven/v1'
+            name 'DevDays2020'
             authentication {
                 basic(BasicAuthentication)
             }
@@ -81,8 +81,8 @@ jar {
 publishing {
   repositories {
     maven {
-        url 'https://pkgs.dev.azure.com/adam0811/_packaging/adam0811/maven/v1'
-        name 'adam0811'
+        url 'https://pkgs.dev.azure.com/adam0811/DevDays2020/_packaging/DevDays2020/maven/v1'
+        name 'DevDays2020'
         authentication {
             basic(BasicAuthentication)
         }
